@@ -7,11 +7,12 @@ import {
 } from "native-base";
 import { Footerka } from "./Footerka.js";
 
-export const PlusScreen = ({ navigation }) => {
+
+export const MinusScreen = ({ navigation }) => {
   return (
     <NativeBaseProvider>
       <Box flex={1} bg="#1F0F1F" safeAreaTop>
-        <Center flex={1} space={3} ><Text color="white" >Plus</Text></Center>
+        <Center flex={1} space={3} ><Text>Minus</Text></Center>
       <Footerka />
       </Box>
     </NativeBaseProvider>
