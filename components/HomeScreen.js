@@ -1,10 +1,10 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { NativeBaseProvider, Box } from "native-base";
 import { LogoBig } from "./LogoBig.js";
 import { Kvadratiki } from "./Kvadratiki.js";
 import { Footerka } from "./Footerka.js";
-import Login from "./Login.js";
-import Logout from "./Logout.js";
+import { Login } from "./Login.js";
+import { Logout } from "./Logout.js";
 
 export const HomeScreen = ({ navigation }) => {
   const [logged, setLogged] = useState(false);

@@ -5,7 +5,7 @@ import { GoogleLogout } from "react-google-login";
 const clientId =
   "101635466215-fh6lne58ufo4g1ih03gt4o1c10vsbqs8.apps.googleusercontent.com";
 
-function Logout(props) {
+export function Logout(props) {
   const onSuccess = () => {
     props.setLogged(false);
     alert("OK, LogOut");
@@ -21,5 +21,3 @@ function Logout(props) {
     </div>
   );
 }
-
-export default Logout;

@@ -4,7 +4,7 @@ import { refreshTokenSetup } from "../utils/refreshToken";
 
 const clientId = "101635466215-fh6lne58ufo4g1ih03gt4o1c10vsbqs8.apps.googleusercontent.com";
 
-function Login(props) {
+export function Login(props) {
   const onSuccess = (res) => {
     props.setLogged(true);
     alert("OK, Logged in");
@@ -30,4 +30,3 @@ function Login(props) {
   );
 }
 
-export default Login;
